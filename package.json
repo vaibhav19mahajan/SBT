@@ -1,0 +1,25 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "jest --verbose ./spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "jasmine-node": "^3.0.0",
+    "jest": "^24.9.0"
+  }
+}

@@ -1,0 +1,48 @@
+# More ignore patterns from SVN collected using `svn pg -R svn:ignore` on trunk
+/.project
+/.settings
+/.classpath
+/.tern-project
+/.gradle
+/nbproject
+/coverage
+/build.xml
+/.svn
+
+# Build process files
+/dist
+/build
+/temp
+/bin
+/report # e2e reports
+coverage
+/*.tgz
+/*.zip
+.tscache
+log
+
+# Node stuff
+node_modules
+npm-debug.log
+package-lock.json
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - webstorm
+.idea
+
+# misc
+/.sass-cache
+/*.log*
+/*.txt
+
+
+# System Files
+.DS_Store
+Thumbs.db
